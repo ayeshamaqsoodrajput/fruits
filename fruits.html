@@ -17,6 +17,23 @@
             margin: 0%;
             padding: 0%;
         }   
+        .bg-image {
+  /* The image used */
+  background-image: url("burg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
     </style>
     <nav class="navbar navbar-light bg-light fixed-top">
         <div class="container-fluid">
@@ -93,5 +110,11 @@
           </div>
         </div>
       </nav>
+      <div class="bg-image"></div>
+
+      <div class="bg-text">
+        <h1>I am John Doe</h1>
+        <p>And I'm a Photographer</p>
+      </div>
 </body>
 </html>
